@@ -15,7 +15,7 @@ Impossible Spaces
 Overlapping Spaces
 * For redirected walking overlapping spaces refers to taking multiple different environments or sections and reusing the same physical space.
 
-### Method of Locomotive:
+### Method of Locomotion:
 Joystick
 * By not physically moving and instead using a controller, participants will be able to traverse freely with no physical limitations.
 
