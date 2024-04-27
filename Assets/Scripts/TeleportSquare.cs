@@ -26,6 +26,7 @@ public class TeleportSquare : MonoBehaviour
         {
             Vector3 teleportPosition = teleportTarget.position + Vector3.up * 1.0f;
             other.transform.position = teleportPosition;
+            gameObject.SetActive(false);
         }
     }
 }
