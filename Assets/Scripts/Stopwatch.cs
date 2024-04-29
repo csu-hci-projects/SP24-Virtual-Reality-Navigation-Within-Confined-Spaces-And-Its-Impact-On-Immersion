@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +7,15 @@ using UnityEngine.UI;
 public class Stopwatch : MonoBehaviour
 {
     public Text stopwatchText; // Reference to the UI Text component to display the stopwatch time
+    //public stopwatchStarter stopwatchTrigger;
+    //public InteractableObject stopwatchFinish;
     private float elapsedTime = 0f; // Elapsed time in seconds
     private bool isRunning = false; // Flag to indicate if the stopwatch is running
 
-    void Start()
+    void Start() 
     {
-        // Start the stopwatch automatically when the game begins
-        StartStopwatch();
+        stopwatchStarter.OnStarterClicked += StartStopwatch;
+        InteractableObject.OnFinishClicked += StopStopwatch;
     }
 
     void Update()
@@ -58,4 +61,5 @@ public class Stopwatch : MonoBehaviour
         // Update the UI text to display the reset time
         UpdateStopwatchUI();
     }
+
 }
