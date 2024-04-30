@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31502882, g: 0.08056045, b: 0.06775878, a: 1}
+  m_IndirectSpecularColor: {r: 0.3156743, g: 0.08197018, b: 0.068612434, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1058,6 +1058,7 @@ MonoBehaviour:
   model1: {fileID: 1008342052}
   model2: {fileID: 2105188175}
   leverStick: {fileID: 1944448353}
+  maxDistance: 1
 --- !u!65 &141887417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1126,7 +1127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a6ef75dcf8c19b4994ce4b5d6ca9202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stopwatch: {fileID: 2070257203}
 --- !u!135 &144709022
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7550,6 +7550,7 @@ MonoBehaviour:
   model1: {fileID: 1294663697}
   model2: {fileID: 1007503240}
   leverStick: {fileID: 188589120}
+  maxDistance: 1
 --- !u!65 &469394929
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7721,7 +7722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a6ef75dcf8c19b4994ce4b5d6ca9202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stopwatch: {fileID: 2070257203}
 --- !u!4 &482847278 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5537283635842207538, guid: f62b31a3464faf14f934e38f9ee55eba, type: 3}
@@ -7906,6 +7906,7 @@ MonoBehaviour:
   model1: {fileID: 525788521}
   model2: {fileID: 1407159347}
   leverStick: {fileID: 1797306794}
+  maxDistance: 5
 --- !u!114 &498731146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66171,6 +66172,7 @@ MonoBehaviour:
   model1: {fileID: 718338736}
   model2: {fileID: 724832487}
   leverStick: {fileID: 1823309435}
+  maxDistance: 1
 --- !u!65 &2002696431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -71408,7 +71410,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   stopwatchText: {fileID: 455684014}
-  stopwatchTrigger: {fileID: 498731146}
 --- !u!1 &2094595380
 GameObject:
   m_ObjectHideFlags: 0
@@ -71704,7 +71705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a6ef75dcf8c19b4994ce4b5d6ca9202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stopwatch: {fileID: 0}
 --- !u!1 &2118632678
 GameObject:
   m_ObjectHideFlags: 0
