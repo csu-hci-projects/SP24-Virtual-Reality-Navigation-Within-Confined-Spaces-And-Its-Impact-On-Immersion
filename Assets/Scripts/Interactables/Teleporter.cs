@@ -5,7 +5,7 @@ using UnityEngine;
 public class Teleporter : MonoBehaviour
 {
     public GameObject teleportTarget;
-    public float maxDistance = 7f; // Maximum distance allowed for interaction
+    public float maxDistance = 3333f; // Maximum distance allowed for interaction
 
     private void OnMouseDown()
     {

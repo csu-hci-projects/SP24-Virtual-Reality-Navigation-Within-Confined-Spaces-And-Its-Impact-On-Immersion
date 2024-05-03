@@ -8,7 +8,7 @@ public class PortalActivate : MonoBehaviour
     private bool isEmptyPortal = true;
     private Quaternion initialRotation = Quaternion.Euler(-30f, 0f, 0f);
     private Quaternion finalRotation = Quaternion.Euler(30f, 0f, 0f);
-    private float maxDistance = 3f; // Maximum distance allowed for interaction
+    private float maxDistance = 3333f; // Maximum distance allowed for interaction
 
     private void OnMouseDown() 
     {

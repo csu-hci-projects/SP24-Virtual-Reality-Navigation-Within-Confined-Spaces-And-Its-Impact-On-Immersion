@@ -10,7 +10,7 @@ public class OpenDoor : MonoBehaviour
     private bool isModel1Active = true;
     private Quaternion initialRotation = Quaternion.Euler(-30f, 0f, 0f);
     private Quaternion destRotation = Quaternion.Euler(30f, 0f, 0f);
-    private float maxDistance = 3f;
+    private float maxDistance = 3333f;
     private void OnMouseDown()
     {
         GameObject player = GameObject.FindGameObjectWithTag("Player");
