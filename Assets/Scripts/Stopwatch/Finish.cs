@@ -6,7 +6,7 @@ public class InteractableObject : MonoBehaviour
 {
     public delegate void ClickAction();
     public static event ClickAction OnFinishClicked;
-    private float maxDistance = 3f;
+    private float maxDistance = 3333f;
 
     private void OnMouseDown()
     {
