@@ -1,7 +1,8 @@
 {
   "dependencies": {
-    "com.meta.xr.sdk.core": "64.0.0",
+    "com.meta.xr.sdk.all": "64.0.0",
     "com.meta.xr.sdk.interaction": "64.0.0",
+    "com.meta.xr.sdk.interaction.ovr.samples": "64.0.0",
     "com.unity.collab-proxy": "2.3.1",
     "com.unity.feature.development": "1.0.1",
     "com.unity.feature.vr": "1.0.0",
