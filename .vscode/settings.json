@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "SP24-Virtual-Reality-Navigation-Within-Confined-Spaces-And-Its-Impact-On-Immersion.sln"
+    "dotnet.defaultSolution": "VRProject.sln"
 }
