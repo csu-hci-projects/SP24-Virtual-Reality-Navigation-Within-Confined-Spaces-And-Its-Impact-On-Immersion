@@ -35,10 +35,9 @@ public class Stopwatch : MonoBehaviour
         // Convert elapsedTime to minutes, seconds, and milliseconds
         int minutes = Mathf.FloorToInt(elapsedTime / 60);
         int seconds = Mathf.FloorToInt(elapsedTime % 60);
-        int milliseconds = Mathf.FloorToInt((elapsedTime * 10) % 10);
 
         // Update the UI text to display the elapsed time
-        stopwatchText.text = string.Format("{0:00}:{1:00}:{2:0}", minutes, seconds, milliseconds);
+        stopwatchText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
     public void StartStopwatch()

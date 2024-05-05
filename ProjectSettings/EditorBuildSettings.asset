@@ -11,9 +11,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
-  - enabled: 1
-    path: Assets/Scenes/JoyStick.unity
+  - enabled: 0
+    path: Assets/Scenes/Joystick&Walk.unity
     guid: cb9158af1851c774790a0b82fc7068f9
+  - enabled: 0
+    path: Assets/Scenes/Teleporting.unity
+    guid: bbbf6189b590e484fb7e1f6d07f5af8f
+  - enabled: 1
+    path: Assets/Scenes/Redirected.unity
+    guid: a051a2c58b492e54eae7044a3e62caa4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}

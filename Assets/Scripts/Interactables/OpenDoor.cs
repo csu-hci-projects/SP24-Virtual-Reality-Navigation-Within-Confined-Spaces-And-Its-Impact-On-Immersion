@@ -34,15 +34,13 @@ public class OpenDoor : MonoBehaviour
         if (Time.time - lastTriggerTime >= triggerCooldown)
         {
             lastTriggerTime = Time.time;
-            // Ensure the action only happens once per press
-            // Set the flag to prevent further action until the trigger is released
+
             // Handle the lever action
             RaycastHit hit;
             if (Physics.Raycast(controllerTransform.position, controllerTransform.forward, out hit, Mathf.Infinity))
             {
                 if (hit.transform.gameObject == lever)
                 {
-                    Debug.Log("Pointing at lever");
 
                     if (isModel1Active)
                     {
