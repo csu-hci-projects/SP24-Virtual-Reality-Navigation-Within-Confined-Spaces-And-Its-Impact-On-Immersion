@@ -24,7 +24,6 @@ important user experience metrics such as experienced user frustration, immersio
 
 # Videos
 ### Overview:
-### Presentation:
 ### Code and Experiment Explanation:
 
 # Developed By
