@@ -45,6 +45,10 @@ https://youtu.be/OmHrBG2vcgk
 
 https://youtu.be/qxAE_dOdIXw
 
+# GitHub
+
+https://github.com/csu-hci-projects/SP24-Virtual-Reality-Navigation-Within-Confined-Spaces-And-Its-Impact-On-Immersion
+
 # Developed By
 Danny Poppa
 
