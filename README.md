@@ -38,7 +38,12 @@ important user experience metrics such as experienced user frustration, immersio
 
 # Videos
 ### Overview:
+
+https://youtu.be/OmHrBG2vcgk
+
 ### Code and Experiment Explanation:
+
+https://youtu.be/qxAE_dOdIXw
 
 # Developed By
 Danny Poppa
