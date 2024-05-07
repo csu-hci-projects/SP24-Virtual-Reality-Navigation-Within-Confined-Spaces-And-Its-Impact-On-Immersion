@@ -19,8 +19,22 @@ important user experience metrics such as experienced user frustration, immersio
 
 # Running the Experiment
 ### Required Resources:
+* Meta Quest 3 headset and controllers
+* Computer capable of building unity project
+
 ### How To Compile:
+1 Clone the repository from Github
+2 Download Unity Hub and Unity if you don't have it already
+2 From Unity Hub click Add in the projects page and select the repository
+3 Click on the project in the Unity Hub Projects dropdown to start compiling the project
+
 ### How To Run:
+1 From the Unity project directory go to to Scenes folder inside the Assets folder
+2 Open the Joystick&Walk scene for the Joystick level, the Teleporting scene for the Teleportation level, or the Redirected scene for the Redirected Walking level
+3 Go to file -> build settings -> Android, and download dependencies if necessary
+4 Select Android as platform
+5 Connect Meta Quest 3 to computer
+6 Build And Run
 
 # Videos
 ### Overview:
